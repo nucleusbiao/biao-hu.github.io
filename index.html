@@ -1,146 +1,424 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Academic personal page">
-    <title>Your Name - Academic Portfolio</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background-color: #f9f9f9;
-            color: #333;
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta name="robots" content="index, follow">
+        <meta name="keywords" content="njust, ">
+        <meta name="description" content=" ">
+        <title>Dr. Bo Huang's HomePage</title>
+        <link rel="icon" href="./image/njust.png" sizes="32x32">
+        <style type="text/css">
+body {
+        font-family: "Times New Roman";
         }
-        header {
-            background-color: #4CAF50;
-            color: white;
-            padding: 20px 0;
-            text-align: center;
+        h3 {
+        color: #666;
+        }                     
+        .Year{
+        font-weight: bold;
         }
-        header h1 {
-            margin: 0;
-            font-size: 2.5em;
+        .FirstAuthor {
+        font-weight: bold;
         }
-        header p {
-            margin: 5px 0 0;
-            font-size: 1.2em;
+        .NonFirstAuthor {        
+        font-weight: bold;
         }
-        nav {
-            background-color: #333;
-            color: white;
-            text-align: center;
-            padding: 10px 0;
+        .Pub {
+        font-style: italic;
+        font-weight:bold;
         }
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin: 0 15px;
-            font-size: 1em;
+        .Pub a:link{
+        text-decoration: none;
+        color: #0194FF;
         }
-        nav a:hover {
-            text-decoration: underline;
+        .Pub a:visited{
+        text-decoration: none;
+        color: #0194FF;
         }
-        main {
-            max-width: 800px;
-            margin: 20px auto;
-            padding: 20px;
-            background: white;
-            border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        .Pub a:hover{
+        text-decoration: none;
+        color: #F88503;
         }
-        section {
-            margin-bottom: 20px;
+        .Pub a:active{
+        text-decoration: none;
+        color: #02F41E;
         }
-        h2 {
-            color: #4CAF50;
-            border-bottom: 2px solid #4CAF50;
-            padding-bottom: 5px;
+        .hangingindent {
+        padding-left: 20px ;
+        text-indent: -15px ;
         }
-        footer {
-            text-align: center;
-            padding: 10px 0;
-            background-color: #333;
-            color: white;
-            margin-top: 20px;
+        ul{
+            margin:0;
         }
-        footer a {
-            color: #4CAF50;
-            text-decoration: none;
+      
+        .c li {
+            list-style:url("./image/c.png");
+            color:blue;
+        } 
+        .c span {
+            color:black;
         }
-        footer a:hover {
-            text-decoration: underline;
+        .j li {
+            list-style:url("./image/j.png");
+            color:red;
+            
+        } 
+        .j span {
+            color:black;
         }
-    </style>
-</head>
-<body>
-    <header>
-        <h1>Your Name</h1>
-        <p>Researcher | Scholar | AI Enthusiast</p>
-    </header>
-    <nav>
-        <a href="#about">About</a>
-        <a href="#research">Research</a>
-        <a href="#publications">Publications</a>
-        <a href="#contact">Contact</a>
-    </nav>
-    <main>
-        <section id="about">
-            <h2>About Me</h2>
-            <p>
-                I am a researcher focused on [your research areas, e.g., Artificial Intelligence, Machine Learning, etc.]. 
-                My work aims to [briefly describe your academic goals or mission].
-            </p>
-            <p>
-                Currently, I am affiliated with [your institution or organization], where I collaborate on [projects/topics].
-            </p>
-        </section>
-        <section id="research">
-            <h2>Research Interests</h2>
+        </style>
+    </head>
+    <body>
+        <table style="margin-left:30px;">
+            <tr>
+                <td valign="middle" colspan="7" bgcolor="#f1f1f1" height="25" >
+                    <a href="#Education & Experience">Education & Experience</a>&nbsp;|<a href="#Research Interests">Research Interests</a>&nbsp;|<a href="#publication">Publications</a>&nbsp;|<a href="#AcademicServices">Academic Services</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img align="baseline" border="0" height="180" src="./image/bh.jpg">
+                </td>
+                <td width="10%"></td>
+                <td>
+                    <b><span style="font-size: large; font-family: 'Comic Sans MS', cursive;">Bo Huang</span><br>
+                    Professor <br>
+                    Director of Department of Networks and Communications</b><br>
+                    <a href="http://cs.njust.edu.cn/" target="_new">School of Computer Science and Engineering</a>,<br>
+                    <a href="http://www.njust.edu.cn/" target="_new">Nanjing University of Science and Technology (NJUST)</a>,<br>
+                    200 Xiaolingwei Street, <a href="http://www.nanjing.gov.cn/" target="_new">Nanjing</a>, <a href="http://www.jiangsu.gov.cn/" target="_new">Jiangsu</a> 210094, <a href="http://www.gov.cn/" target="_new">P. R. China</a><br> 
+                    <br>
+                    <b>Office</b>: 3026, <nobr>School of Computer Science and Engineering</a></nobr><br>
+                    <b>E-mail</b>:  <a href="mailto:huangbo@njust.edu.cn">huangbo@njust.edu.cn</a><br>
+                    <b>Office Hours</b>: 2-5 pm, Wed.
+                </td>
+                <td width="10%"></td>
+                <td>
+                    <a href="http://www.njust.edu.cn/"><img align="baseline" border="0" height="180" src="./image/njust.png" ></a>
+                </td>
+                <td>
+                    <a href="http://cs.njust.edu.cn/"><img align="baseline" border="0" height="180" src="./image/cs.jpg" ></a>
+                </td>
+                
+            </tr>
+
+        </table>
+        <img src="image/bar.gif" width="100%" height="2.5"><br>
+        <div style="margin-left:30px;" id="Education & Experience">
+            <h2>
+                Education & Experience
+            </h2>
+            <ul >
+            	  <li class="hangingindent">
+                    2019-2020: Visiting Scholar <br> <a href="http://ece.njit.edu/" target="_new">Department of Electrical and Computer Engineering</a> <br>
+                    <a href="http://www.njit.edu/" target="_new">New Jersey Institute of Technology (NJIT)</a>
+                </li>
+                <li class="hangingindent">
+                    2019-Present: Full Professor <br> <a href="http://cs.njust.edu.cn/" target="_new">School of Computer Science and Engineering</a> <br>
+                    <a href="http://www.njust.edu.cn/" target="_new">Nanjing University of Science and Technology</a>
+                </li>
+                <li class="hangingindent">
+                    2014-2015: Visiting Scholar <br> <a href="http://ece.njit.edu/" target="_new">Department of Electrical and Computer Engineering</a> <br>
+                    <a href="http://www.njit.edu/" target="_new">New Jersey Institute of Technology (NJIT)</a>
+                </li>
+                <li class="hangingindent">
+                    2013: Visiting Scholar <br> 
+                    <a href="http://www.umkc.edu/" target="_new">University of Missouri-Kansas City (UMKC)</a>
+                </li>
+                <li class="hangingindent">
+                    2011-2018: Associate Professor <br> <a href="http://cs.njust.edu.cn/" target="_new">School of Computer Science and Engineering</a> <br>
+                    <a href="http://www.njust.edu.cn/" target="_new">Nanjing University of Science and Technology</a>
+                </li>      
+                <li class="hangingindent">
+                    2007-2010: Assistant Professor <br> <a href="http://cs.njust.edu.cn/" target="_new">School of Computer Science and Engineering</a> <br>
+                    <a href="http://www.njust.edu.cn/" target="_new">Nanjing University of Science and Technology</a>
+                </li>       
+                <li class="hangingindent">
+                    2006: Ph. D. in Computer and Appliations <br> 
+                    <a href="http://www.njust.edu.cn/" target="_new">Nanjing University of Science and Technology</a>
+                </li>      
+                <li class="hangingindent">
+                    2002: B. S. in Computer and Appliations <br> 
+                    <a href="http://www.njust.edu.cn/" target="_new">Nanjing University of Science and Technology</a>
+                </li>   
+            </ul>            
+        </div>
+        
+        <div style="margin-left:30px;" id="Research Interests">
+            <h2>
+                Research Interests
+            </h2>
+            Artificial intelligence, intelligent manufacturing systems, intelligent transportation, discrete event systems, Petri nets, system modeling and scheduling, optimization.
+        </div>
+
+
+        
+        <!--
+        <div style="margin-left:30px;" id="Funding">
+            <h2>
+                Funding
+            </h2>
+            I have presided 10+ projects including two projects from National Natural Science Foundation of China (NSFC). Also, I have participated 10+ projects
             <ul>
-                <li>Topic 1: [e.g., Deep Learning for Natural Language Processing]</li>
-                <li>Topic 2: [e.g., Reinforcement Learning for Robotics]</li>
-                <li>Topic 3: [e.g., Explainable AI and Ethical AI]</li>
+                <li class="hangingindent">
+                National Natural Science Foundation of China (NSFC): PI, No. 61773206, Title: Research on Intelligent Scheduling Strategies for Automated Manufacturing Systems with State Space Explosion  
+                </li>                
             </ul>
-        </section>
-        <section id="publications">
-            <h2>Publications</h2>
-            <p>Below is a selection of my recent work:</p>
+            
+            <ul>
+                <li class="hangingindent">
+                National Natural Science Foundation of China (NSFC): PI, No. 61203173, Title: Research on Modular Modeling and Controllable Scheduling of Reconfiguration Manufacturing Systems  
+                </li>                
+            </ul>
+            
+           <ul>
+                <li class="hangingindent">
+                Jiangsu Overseas Visiting Scholar Program for University Prominent Young & Middle-aged Teachers and Presidents   
+                </li>                
+           </ul>
+           
+           <ul>
+                <li class="hangingindent">
+                China Scholarship Council (CSC) Scholarship   
+                </li>                
+           </ul>
+           
+        </div>
+        -->
+        
+        <div style="margin-left:30px;" id="publication">
+            <h2>
+                Publications
+            </h2>
+            <h3>Book</h3>
+            <ul>
+                  <li class="hangingindent"> <span class="FirstAuthor">Bo Huang</span>, MengChu Zhou. <a target="_blank" href="https://www.amazon.com/Supervisory-Control-Scheduling-Resource-Allocation/dp/1119619688/ref=sr_1_1?dchild=1&keywords=supervisory+control+and+scheduling&qid=1591143842&sr=8-1">Supervisory Control and Scheduling of Resource Allocation Systems</a>.  <span class="Pub">Wiley</span>, 2020 (ISBN-13: 978-1119619680). <a target="_blank" href="https://www.amazon.com/Supervisory-Control-Scheduling-Resource-Allocation/dp/1119619688/ref=sr_1_1?dchild=1&keywords=9781119619680&qid=1592249236&sr=8-1">Book link in Amazon.</a></li>
+            </ul>
+            
+            <h3>Selected Papers</h3>
+
+            <!--<b><em>Note</em></b><em>: The <a target="_blank" style="text-decoration:none" href="http://www.fenqubiao.com">JCR rankings</a> are those reported by <a target="_blank" style="text-decoration:none" href="http://www.las.ac.cn/">National Science Library, Chinese Academy of Sciences</a> for major categority (engineering technology) in the years that the articles are published. The <a target="_blank" style="text-decoration:none" href="http://www.ccf.org.cn/sites/ccf/paiming.jsp">CCF rankings</a> are periodically provided by the <a target="_blank" style="text-decoration:none" href="http://www.ccf.org.cn">China Computer Federation</a>. Symbol <b>*</b> represents that I am one of the corresponding authors when I am not the first author.</em>-->
+
+<!--<h4>2025</h4>-->
+<ul class="j">
+<li class="hangingindent"><span>[j48] FengLian Yuan, <span class="NonFirstAuthor">B. Huang*</span>, JianYong Lv, Meiji Cui. <a target="_blank" href="https://www.sciencedirect.com/science/article/abs/pii/S0305054824003848">Scheduling AMSs with Generalized Petri Nets and Highly Informed Heuristic Search</a>.  <span class="Pub">Computers and Operations Research</span>, 175, 106912, 2025.</span></li>
+</ul>
+                  
+<!--<h4>2024</h4>-->
+<ul class="c">    
+<li class="hangingindent"><span>[c16] Yuanzheng Xiao, Haoran Wu, Yangqing Gao, <span class="NonFirstAuthor">Bo Huang*</span>. A Faster Heuristic Scheduling Search for Robotic Cellular Manufacturing Systems with Generalized and Timed Petri Nets. <span class="Pub">IEEE International Conference on Systems, Man, and Cybernetics (SMC)</span>, Oct. 2024, Kuching, Malaysia. </span></li>
+</ul>
+<ul class="c">    
+<li class="hangingindent"><span>[c15] ZhuTao Yao, <span class="NonFirstAuthor">Bo Huang*</span>, JianYong Lv, XiaoYu Lu, et al.. Scheduling of Robotic Cellular Manufacturing Systems with Timed Petri Nets and Reinforcement Learning. <span class="Pub">IROS 2024</span>, Abu Dhabi, UAE, Oct. 2024.  </span></li>
+</ul>
+<ul class="j">
+<li class="hangingindent"><span>[j47] JY Lv, <span class="NonFirstAuthor">B. Huang*</span>. <a target="_blank" href="https://ieeexplore.ieee.org/document/10206025">A Petri-Net-based Anytime A* Search for Scheduling Resource Allocation Systems</a>.  <span class="Pub">IEEE Transactions on Industrial Informatics</span>, Feb. 2024, 20(2): 2865-2872.</span></li>
+</ul>
+                
+<!--<h4>2023</h4>-->
+<ul class="j">
+<li class="hangingindent"><span>[j46] <span class="FirstAuthor">Bo Huang</span>, MengChu Zhou, XiaoYu Sean Lu, and Abdullah Abusorrah. <a target="_blank" href="https://dl.acm.org/doi/10.1145/3570326">Scheduling of Resource Allocation Systems with Timed Petri Nets: A Survey</a>.  <span class="Pub">ACM Computing Surveys</span>, Feb. 2023, Vol. 55, No. 11, 230: 1-27.</span></li>
+</ul>
+<ul class="c">     
+<li class="hangingindent"><span>[c14] ChuanYang Ren, XiaoYu Lu, NanXiang Li, JianYong Lv, <span class="NonFirstAuthor">Bo Huang*</span>. A Hybrid Heuristic Scheduling Method for FMSs Based on Timed Petri Nets. <span class="Pub">ASCMSE 2023</span>, Kaifeng China, May 26-28, 2023. <B>(Excellent Papers Award)</B> </span></li>
+</ul>
+<ul class="j">
+<li class="hangingindent"><span>[j45] FengLian Yuan, QingLing Zhao, <span class="NonFirstAuthor">Bo Huang*</span>, ChunRong Pan. <a target="_blank" href="https://www.sciencedirect.com/science/article/pii/S1383762122002739">Scheduling of Time-Constrained Single-Arm Cluster Tools with Purge Operations in Wafer Fabrications</a>. <span class="Pub">Journal of Systems Architecture</span>. 2023, 134, 102788.</span></li>
+</ul>
+<!--<h4>2022</h4>-->
+<ul class="j">
+<li class="hangingindent"><span>[j44] FengLian Yuan, <span class="NonFirstAuthor">Bo Huang*</span>, JiPeng Wang, ChunRong Pan. <a target="_blank" href="https://kns.cnki.net/kcms/detail/detail.aspx?doi=10.16383/j.aas.c210951">A Survey of Modeling and Scheduling of Cluster Tools Based on Petri Nets</a>.  <span class="Pub">Acta Automatica Sinica</span>, 2022, DOI: 10.16383/j.aas.c210951.</span></li>
+</ul>
+<ul class="j">
+<li class="hangingindent"><span>[j43] <span class="FirstAuthor">Bo Huang</span>, MengChu Zhou. <a target="_blank" href="https://ieeexplore.ieee.org/document/9669185">Symbolic Scheduling of Robotic Cellular Manufacturing Systems with Timed Petri Nets</a>.  <span class="Pub">IEEE Transactions on Control Systems Technology</span>, 2022, 30(5): 1876-1887.</span></li>
+</ul>
+<ul class="j">
+<li class="hangingindent"><span>[j42] <span class="FirstAuthor">Bo Huang</span>, MengChu Zhou, Abdullah Abusorrah, Khaled Sedraoui. <a target="_blank" href="https://ieeexplore.ieee.org/document/9233999">Scheduling Robotic Cellular Manufacturing Systems with Timed Petri Net, A* Search and Admissible Heuristic Function</a>.  <span class="Pub">IEEE Transactions on Automation Science and Engineering</span>, 2022, 19(1): 243-250.</span></li>
+</ul>
+<!--<h4>2021</h4>-->
+<ul class="j">
+<li class="hangingindent"><span>[j41] <span class="FirstAuthor">Bo Huang</span>, MengChu Zhou, Cong Wang, Abdullah Abusorrah, Yusuf Al-Turki. <a target="_blank" href="https://ieeexplore.ieee.org/document/9106876">Deadlock-free Supervisor Design for Robotic Manufacturing Cells with Uncontrollable and Unobservable Events</a>.  <span class="Pub">IEEE/CAA Journal of Automatica Sinica</span>, 2021, 8(3): 597-605.</span></li>
+</ul>
+<ul class="j">
+<li class="hangingindent"><span>[j40] Chong Yu, <span class="NonFirstAuthor">Bo Huang*</span>, JianGen Hao. <a target="_blank" href="http://www.ijmlc.org/vol11/1032-T1011.pdf"> Multiobjective Heuristic Scheduling of Automated Manufacturing Systems based on Petri Nets</a>. <span class="Pub">International Journal of Machine Learning and Computing</span>, 2021, 11(2): 176-181. </span></li>
+</ul>
+<!--<h4>2019</h4>-->
+<ul class="j">
+<li class="hangingindent"><span>[j39] <span class="FirstAuthor">Bo Huang</span>, MengChu Zhou, YiSheng Huang, YuWang Yang. <a target="_blank" href="https://ieeexplore.ieee.org/abstract/document/8010898">Supervisor Synthesis for FMS based on Critical Activity Places</a>.  <span class="Pub">IEEE Transactions on Systems, Man, and Cybernetics: Systems</span>, 2019, 49(5): 881-890.</span></li>
+</ul>
+<ul class="c">     
+<li class="hangingindent"><span>[c13] Chong Yu, <span class="NonFirstAuthor">Bo Huang*</span>, JianGen Hao. Multiobjective Heuristic Scheduling of Automated Manufacturing Systems based on Petri Nets. <span class="Pub">12th IEEE International Conference on Computer Science and Information Technology</span>, Barcelona, Spain, Dec. 18-20, 2019. </span></li>
+</ul>
+<ul class="c">     
+<li class="hangingindent"><span>[c12] Yandong Pei, <span class="NonFirstAuthor">Bo Huang*</span>, Chunxia Zhao and Gongxuan Zhang. Modeling and Analyzing of Emergency Vehicle Preemption in a Four-phase intersection via TPN. <span class="Pub">12th IEEE International Conference on Computer Science and Information Technology</span>, Barcelona, Spain, Dec. 18-20, 2019. </span></li>
+</ul>
+<!--<h4>2018</h4>-->
+<ul class="j">
+<li class="hangingindent"><span>[j38] <span class="FirstAuthor">Bo Huang</span>, MengChu Zhou, PeiYun Zhang, Jian Yang. <a target="_blank" href="https://ieeexplore.ieee.org/abstract/document/7551139">Speedup Techniques for Multiobjective Integer Programs in Designing Optimal and Structurally Simple Supervisors of AMS</a>.  <span class="Pub">IEEE Transactions on Systems, Man, and Cybernetics: Systems</span>, 2018, 48(1): 77-88.</span></li>    
+</ul>
+<ul class="c">     
+<li class="hangingindent"><span>[c11] <span class="FirstAuthor">Bo Huang</span>, Zhicheng Cai, Mengchu Zhou and Jiangen Hao. <a target="_blank" href="https://ieeexplore.ieee.org/abstract/document/8361322/">Scheduling of FMS based on Binary Decision Diagram and Petri Net</a>. <span class="Pub">15th IEEE International Conference on Networking, Sensing and Control</span>, Zhuhai, China, Mar. 27-29, 2018. </span></li>
+</ul>
+<!--<h4>2017</h4>-->
+<ul class="c">    
+<li class="hangingindent"><span>[c10] LingBo Zhao, Liming Pu, Zhixia Zhao, <span class="NonFirstAuthor">Bo Huang*</span>, JianGen Hao, Yisheng Huang. <a target="_blank" href="https://ieeexplore.ieee.org/abstract/document/8623618/">Emergency Vehicle Preemption Control of T-shaped Intersections with Time Petri Nets</a>. <span class="Pub">Chinese Automation Congress</span>, Xian, China, Dec. 1-3, 2018, 3213-3218. </span></li>
+</ul><ul class="j"> 
+<li class="hangingindent"><span>[j37] JiaLang Zhang, <span class="NonFirstAuthor">Bo Huang*</span>. <a target="_blank" href="http://en.cnki.com.cn/Article_en/CJFDTotal-JFJL201703005.htm">Fast Generation of Traps and Minimal Siphons of Petri Net Models based on BDD</a>.  <span class="Pub">Journal of PA University of Science and Technology</span>, 2017, 18(3): 231-237.</span></li>
+</ul><ul class="c"> 
+<li class="hangingindent"><span>[c09] <span class="FirstAuthor">Bo Huang</span>, YanDong Pei, YuWang Yang, MengChu Zhou, JianQiang Li. <a target="_blank" href="https://ieeexplore.ieee.org/abstract/document/8123211/">Near-optimal and Minimal PN Supervisors of FMS with Uncontrollability and Unobservability</a>. <span class="Pub">IEEE International Conference on Systems, Man, and Cybernetics</span>, Banff, Canada, Oct. 5-8, 2017: 3715-3720. </span></li>
+<!--<h4>2016</h4>-->
+<li class="hangingindent"><span>[c08] <span class="FirstAuthor">Bo Huang</span>, MengChu Zhou, YiSheng Huang. <a target="_blank" href="https://ieeexplore.ieee.org/abstract/document/7844620">Place Invariant Simplification in Optimal Supervisor Synthesis for FMS</a>. <span class="Pub">IEEE International Conference on Systems, Man, and Cybernetics</span>, Budapest, Hungary, Oct. 9-12, 2016: 2527-2532. </span></li>   
+</ul><ul class="j">           
+<li class="hangingindent"><span>[j36] PeiYun Zhang, RongJian Xie, <span class="nonFirstAuthor">Bo Huang</span>. <a target="_blank" href="https://content.iospress.com/articles/journal-of-intelligent-and-fuzzy-systems/ifs169068">Trustworthy services diffusion based on optimizational nodes in online social network</a>. <span class="Pub">Journal of Intelligent & Fuzzy Systems</span>, 2016, 31(4): 2281-2290. </span></li>
+<!--<h4>2015</h4>-->
+<li class="hangingindent"><span>[j35] <span class="FirstAuthor">Bo Huang</span>, MengChu Zhou, GongXuan Zhang. <a target="_blank" target="_blank" href="https://www.sciencedirect.com/science/article/pii/S0005109815003301">Synthesis of Petri net supervisors for FMS via redundant constraint elimination</a>. <span class="Pub">Automatica</span>, 2015, 61: 156-163. (JCR Top Journal)</span></li>
+<li class="hangingindent"><span>[j34] <span class="FirstAuthor">Bo Huang</span>, MengChu Zhou, GongXuan Zhang, Ahmed Chiheb Ammari, Ahmed Alabdulwahab, Ayman G. Fayoumi. <a target="_blank" target="_blank" href="https://ieeexplore.ieee.org/abstract/document/7091019">Lexicographic multiobjective integer programming for optimal and structurally minimal Petri net supervisors of automated manufacturing systems</a>.<span class="Pub"> IEEE Transactions on Systems, Man, and Cybernetics: Systems</span>. 2015, 45(11): 1459-1470.</span></li>
+<li class="hangingindent"><span>[j33] <span class="FirstAuthor">Bo Huang</span>,Hang Zhu, GongXuan Zhang, XianLing Lu. <a target="_blank" target="_blank" href="https://ieeexplore.ieee.org/abstract/document/6894620">On Further Reduction of Constraints in Nonpure Petri Net Supervisors for Optimal Deadlock Control of Flexible Manufacturing Systems</a>. <span class="Pub">IEEE Transactions on Systems, Man, and Cybernetics: Systems</span>, March 2015, 45(3): 542-543.</span></li>
+</ul><ul class="c"> 
+<li class="hangingindent"><span>[c07] <span class="FirstAuthor">Bo Huang</span>, MengChu Zhou. <a target="_blank" href="https://ieeexplore.ieee.org/abstract/document/7379235/">Fast synthesis of optimal and structurally simple supervisors for automated manufacturing systems</a>. <span class="Pub">IEEE International Conference on Systems, Man, and Cybernetics</span>, Hong Kong, China, 2015.</span></li>
+<!--<h4>2014</h4>-->
+</ul><ul class="j"> 
+<li class="hangingindent"><span>[j32] <span class="FirstAuthor">Bo Huang</span>, RongXi Jiang, GongXuan Zhang. <a target="_blank" href="https://www.sciencedirect.com/science/article/abs/pii/S0360835214000539">Search strategy for scheduling flexible manufacturing systems simultaneously using admissible heuristic functions and nonadmissible heuristic functions</a>. <span class="Pub">Computers and Industrial Engineering</span>, May 2014, 71: 21-26.</span></li>
+<li class="hangingindent"><span>[j31] <span class="FirstAuthor">Bo Huang</span>, RongXi Jiang, GongXuan Zhang. <a target="_blank" href="https://www.sciencedirect.com/science/article/pii/S0360835213003756">Comments on Heuristic search for scheduling flexible manufacturing systems using lower bound reachability matrix</a>. <span class="Pub">Computers and Industrial Engineering</span>, Jan. 2014, 67: 235-236.</span></li>
+<li class="hangingindent"><span>[j30] <span class="FirstAuthor">Bo Huang</span>, RongXi Jiang, GongXuan Zhang. <a target="_blank" href="https://link.springer.com/chapter/10.1007/978-3-319-07455-9_19">Heuristic search for scheduling flexible manufacturing systems using multiple heuristic functions</a>. <span class="Pub">Modern Advances in Applied Intelligence</span>. Springer International Publishing, June 2014: 178-187.</span></li>     
+<li class="hangingindent"><span>[j29] PeiYun Zhang, EnHong Chen, RongJian Xie, XiuWen Cong, <span class="NonFirstAuthor">Bo Huang*</span>. Computation of Document Similarity based on Metadata and Domain Concept Tree. <span class="Pub">Systems Engineering and Electronics</span>, 2014, 36(3): 591-597.</span></li>
+<li class="hangingindent"><span>[j28] PeiYun Zhang, ChuanMing Chen, <span class="nonFirstAuthor">Bo Huang</span>. Texts Similarity Algorithm based on Subtrees Matching. <span class="Pub">Pattern Recognition and Artificial Intelligence</span>, 2014, 27(3): 226-233.</span></li>    
+<!--<h4>2013</h4>-->
+<li class="hangingindent"><span>[j27] PeiYun Zhang, <span class="nonFirstAuthor">Bo Huang</span>, XiuWen Gong. A maximum coverage method of trustworthy services based on social network. <span class="Pub">Computer Engineering & Science</span>, 2013, 35(10): 36-43.</span></li>      
+<li class="hangingindent"><span>[j26] PeiYun Zhang, EnHong Chen, <span class="nonFirstAuthor">Bo Huang</span>. Personalized requirements oriented trustworthy services recommendation based on social network. <span class="Pub">Journal of Communications</span>, 2013, 35(10): 36-43.</span></li>          
+<!--<h4>2012</h4>-->
+<li class="hangingindent"><span>[j25] <span class="FirstAuthor">Bo Huang</span>, XingXi Shi, Nan Xu. <a target="_blank" href="https://link.springer.com/article/10.1007/s00170-012-3958-x">Scheduling FMS with alternative routings using Petri nets and near admissible heuristic search</a>. <span class="Pub">International Journal of Advanced Manufacturing Technology</span>, December 2012, 63(9): 1131-1136.</span></li>              
+</ul><ul class="c"> 
+<li class="hangingindent"><span>[c06] <span class="FirstAuthor">Bo Huang</span>, LiNa Yan, Nan Xu, YuWang Yang. Research on Action Select Strategy of Robot Soccer Based on Petri Net and Position Prediction. <span class="Pub">The 2nd International Conference on Consumer Electronics, Communications and Networks</span>, April, 2012: 1212-1215.</span></li>
+</ul><ul class="j"> 
+<li class="hangingindent"><span>[j24] AnMin Fu, ShaoHua Lan, <span class="nonFirstAuthor">Bo Huang</span>, Zhenchao Zhu. A novel group-based handover authentication scheme with privacy preservation for mobile WiMAX networks. <span class="Pub">IEEE Communications Letters</span>, 2012, 16(11): 1744-1747. </span></li>
+<li class="hangingindent"><span>[j23] Nan Xu, YaMin Sun, JiMing Yu, <span class="nonFirstAuthor">Bo Huang</span>. An energy-efficient cross-layer model of security for large-scale wireless biosensor networks. <span class="Pub">Journal of Information and Computational Science</span>, 2012, 9(13): 3795-3804. </span></li>
+<!--<h4>2011</h4>-->
+<li class="hangingindent"><span>[j22] Nan Xu, YaMin Sun, <span class="nonFirstAuthor">Bo Huang</span>, JiMing Yu. Cross-layer Adaptive Round Distributed Clustering Routing Model for Wireless Sensor Networks. <span class="Pub">Computer Science</span>, 2011, 38(5): 56-59.</span></li>
+<li class="hangingindent"><span>[j21] Lei Hong, <span class="NonFirstAuthor">Bo Huang*</span>, ChunXia Zhao. Link Quality Aware Topology Control on Geographic Routing. <span class="Pub">Computer Engineering and Applications</span>, 2011, 47(30): 75-78.</span></li>
+<li class="hangingindent"><span>[j20] Lei Hong, <span class="NonFirstAuthor">Bo Huang*</span>, ChunXia Zhao. Geographic Routing Algorithm based on Link Quality in Mobile Ad-hoc Networks. <span class="Pub">Computer Sciences</span>, 2011, 38(10): 51-54.</span></li>
+<!--<h4>2011</h4>-->
+<li class="hangingindent"><span>[j19] <span class="FirstAuthor">Bo Huang</span>, Yu Sun, YaMin Sun, ChunXia Zhao.<a target="_blank" href="https://link.springer.com/article/10.1007/s00170-009-2329-8"> A hybrid heuristic search algorithm for scheduling FMS based on Petri net model</a>, <span class="Pub">International Journal of Advanced Manufacturing Technology</span>, June 2010, 48(9-12): 925-933.</span></li>
+<li class="hangingindent"><span>[j18] <span class="FirstAuthor">Bo Huang</span>, ChunXia Zhao, YaMin Sun. Optimal scheduling of flexible manufacturing system based on Petri net and dynamic weighting heuristic strategy. <span class="Pub">Journal of Nanjing University of Science and Technology</span>, 2010, 34(4): 482-486.</span></li>
+<li class="hangingindent"><span>[j17] <span class="FirstAuthor">Bo Huang</span>, LiNa Yan, XingXi Shi, ChunXia Zhao. Robot soccer task allocation strategy based on superiority evaluation algorithm. <span class="Pub">Journal of Huazhong University of Science and Technology</span>, 2010, 38(1): 101-105.</span></li>
+<li class="hangingindent"><span>[j16] XingXi Shi, TieSheng Wang, <span class="nonFirstAuthor">Bo Huang</span>, ChunXia Zhao. Integrated Localization Algorithm for DGPS/DR Based on SUT-EKF. <span class="Pub">Acta Geodaetica et Cartographica Sinica</span>, 2010, 39(5): 528-533.</span></li>
+</ul><ul class="c"> 
+<li class="hangingindent"><span>[c05] XingXi Shi, TieSheng Wang, <span class="nonFirstAuthor">Bo Huang</span>, ChunXia Zhao. Cooperative multi-robot localization based on distributed UKF. <span class="Pub">The 3rd IEEE International Conference on Computer Science and Information Technology</span>, 590-593.</span></li>
+</ul><ul class="j"> 
+<li class="hangingindent"><span>[j15] PeiYun Zhang, <span class="nonFirstAuthor">Bo Huang</span>, YaMin Sun, A Web Services Matching Mechanism based on Semantics and Qos-aware Aspect. <span class="Pub">Journal of Computer Research and Development</span>, 2010, 47(5): 780-787.</span></li>
+</ul><ul class="c"> 
+<li class="hangingindent"><span>[c04] <span class="FirstAuthor">Bo Huang</span>, ChunXia Zhao. Scheduling FMS with a hybrid heuristic search algorithm, <span class="Pub">The International Conference on Computational Intelligence and Software Engineering</span>, 2009: 1-4.</span></li>
+</ul><ul class="j"> 
+<li class="hangingindent"><span>[j14] <span class="FirstAuthor">Bo Huang</span>, ChunXia Zhao, PeiYun Zhang, YaMin Sun. Heuristic scheduling algorithm of flexible manufacturing system based on Petri net. <span class="Pub">Journal of System Simulation</span>, 2009, 21(20): 6405-6408.</span></li>
+<li class="hangingindent"><span>[j13] <span class="FirstAuthor">Bo Huang</span>, ChunXia Zhao, PeiYun Zhang, YaMin Sun. Analysis of industrial hybrid systems based on fluid stochastic Petri nets. <span class="Pub">Journal of System Simulation</span>, 2009, 21(9): 2524-2526.</span></li>
+<li class="hangingindent"><span>[j12] <span class="FirstAuthor">Bo Huang</span>, Yu Sun, YaMin Sun. <a target="_blank" href="https://www.tandfonline.com/doi/abs/10.1080/00207540600698878">Scheduling of flexible manufacturing systems based on Petri nets and hybrid heuristic search</a>. <span class="Pub">International Journal of Production Research</span>, August 2008, 46(16): 4553-4565.</span></li>
+</ul><ul class="c"> 
+<li class="hangingindent"><span>[c03] <span class="FirstAuthor">Bo Huang</span>, ChunXia Zhao, YaMin Sun. Modeling of urban traffic systems based on fluid stochastic Petri nets. <span class="Pub">The 4th International Conference on Natural Computation</span>, 2008, 7: 149-153.</span></li>
+</ul><ul class="j"> 
+<li class="hangingindent"><span>[j11] <span class="FirstAuthor">Bo Huang</span>, ChunXia Zhao, PeiYun Zhang, YaMin Sun. Simulation of flexible manufacturing system based on Petri net. <span class="Pub">Journal of Computer Applications</span>, 2008, 28(9): 2410~2412.</span></li>
+<li class="hangingindent"><span>[j10] PeiYun Zhang, <span class="NonFirstAuthor">Bo Huang</span>, YaMin Sun. Automatic web services composition based on SLM. <span class="Pub">Wuhan University Journal of natural Sciences (English Edition)</span>, 2008, 13(5): 296-299.</span></li>
+<li class="hangingindent"><span>[j09] PeiYun Zhang, <span class="NonFirstAuthor">Bo Huang</span>, YaMin Sun. Web services composition based on global semantics and QoS-aware aspect. <span class="Pub">Journal of Southeast University (English Edition)</span>, 2008, 24(3): 425-428.</span></li>
+<li class="hangingindent"><span>[j08] PeiYun Zhang, <span class="nonFirstAuthor">Bo Huang</span>, YaMin Sun, Service Semantic Matching Mechanism for Web Services Composition. <span class="Pub">Journal of University of Electronic Science and Technology of China</span>, 2008, 37(6): 917-921.</span></li>
+<li class="hangingindent"><span>[j07] PeiYun Zhang, <span class="nonFirstAuthor">Bo Huang</span>, YaMin Sun. Web services hybrid composition based on semantics and template. <span class="Pub">Journal of Nanjing University of Science and Technology</span>, 2008, 32(4): 425-428.</span></li>
+<li class="hangingindent"><span>[j06] PeiYun Zhang, <span class="nonFirstAuthor">Bo Huang</span>, YaMin Sun. A Hybrid Selection Approach for Web Service based on Semantic Matching and QoS. <span class="Pub">Geomatics and Information Science of Wuhan University</span>, 2008, 33(5): 537-541.</span></li>
+<li class="hangingindent"><span>[j05] PeiYun Zhang, <span class="nonFirstAuthor">Bo Huang</span>, YaMin Sun. Hybrid Selection Mechanism for Web Services based on Semantic Matching. <span class="Pub">Journal of Nanjing University of Science and Technology</span>, 2007, 31(6): 689-694.</span></li>
+<li class="hangingindent"><span>[j04] PeiYun Zhang, <span class="nonFirstAuthor">Bo Huang</span>, YaMin Sun. Petri-net-based Description and Verification of Web Services Composition Model. <span class="Pub">Journal of System Simulation</span>, 2007, 19(12): 2872-2876.</span></li>
+<li class="hangingindent"><span>[j03] <span class="FirstAuthor">Bo Huang</span>, YaMin Sun. Improved methods for scheduling flexible manufacturing systems based on Petri nets and heuristic search. <span class="Pub">Journal of Control Theory and Application</span>, 2005, 3(2): 139~144. </span></li>
+<li class="hangingindent"><span>[j02] <span class="FirstAuthor">Bo Huang</span>, Fang Zhou, YaMin Sun. A multimodal integration model of military control system. <span class="Pub">Journal of System Simulation</span>, 2004, 16(10): 2135-2139.</span></li>
+<li class="hangingindent"><span>[j01] BingYi Zhang, <span class="nonFirstAuthor">Bo Huang</span>, YaMin Sun. VoMPLS Traffic Multiplexing Scheme with Guaranteed QoS. <span class="Pub">Journal of Nanjing University of Science and Technology</span>, 2004, 28(5): 516-519.</span></li>
+</ul><ul class="c"> 
+<li class="hangingindent"><span>[c02] <span class="FirstAuthor">Bo Huang</span>, BingYi Zhang, Fang Zhou, YaMin Sun. Modeling multimodal integration based on colored Petri nets and feature structures. <span class="Pub">International Conference on Control, Automation, Robotics and Vision Conference</span>, 2004, 1: 514-516. </span></li>
+<li class="hangingindent"><span>[c01] <span class="FirstAuthor">Bo Huang</span>, YaMin Sun. Modeling and analysis of industrial hybrid systems based on first order and second order FSPN. <span class="Pub">International Conference on Machine Learning and Cybernetics</span>, 2004, 1: 347-351. </span></li>
+
+            </ul>
+           
+        </div>
+
+        
+        <div style="margin-left:30px;" id="AcademicServices">
+            <h2>
+                Academic Services
+            </h2>
             <ul>
                 <li>
-                    <b>Title of Paper 1</b><br>
-                    Authors: You, Co-authors<br>
-                    <i>Journal/Conference, Year</i><br>
-                    <a href="https://doi.org/xxxxx" target="_blank">DOI Link</a>
+                    IEEE Senior Member
                 </li>
+                
                 <li>
-                    <b>Title of Paper 2</b><br>
-                    Authors: You, Co-authors<br>
-                    <i>Journal/Conference, Year</i><br>
-                    <a href="https://doi.org/xxxxx" target="_blank">DOI Link</a>
+                    CCF Senior Member
                 </li>
+                
                 <li>
-                    <b>Title of Paper 3</b><br>
-                    Authors: You, Co-authors<br>
-                    <i>Journal/Conference, Year</i><br>
-                    <a href="https://doi.org/xxxxx" target="_blank">DOI Link</a>
+                    Editorial Board Member of Frontiers in Manufacturing Technology (2022.9-present)
                 </li>
+                
+                <li>
+                    Session Chair of IEEE ICNSC2018 and IEEE SMC2017
+                </li>
+                
+                <li>
+                    Program Committee Member of IEEE SMC2018, IEEE ICNSC2018, IEEE SMC2017, IEEE ICNSC2017, ICMSCD2017, ICEEAC2017, and EEA2016
+                </li>
+                
+                <li>
+                    Reviewer of Natural Science Foundation of China (NSFC) and Chilean National Commission for Scientific and Technological Research (CONICYT)
+                </li>
+                
+                <li>
+                    Reviewer of Automatica, IEEE Transactions on System, Man and Cybernetics: Systems, IEEE Transactions on Automation Science and Engineering, IEEE Transactions on Industrial Informatics, IEEE Transactions on Intelligent Transportation Systems, Information Sciences, Enterprise Information Systems, International Journal of Computer Integrated Manufacturing, IET Control Theory & Applications, Control Engineering Practice, ISA Transactions, Advances in Mechanical Engineering, IEEE/CAA Journal of Automatica Sinica, etc.
+                </li>
+                <!--
+                <li class="hangingindent">Workshop Chair:<br>
+                    <a target="_blank" style="text-decoration:none" href="http://www.icccsconf.org/workshops/30-ICCCS2018%20Workshops%20or%20Sessions.pdf">Workshop: Weak Label Learning and Applications in ICCCS-2018</a><br>
+                </li>
+                <li class="hangingindent">PC Memeber for International Conferences:<br>
+                    <a target="_blank" style="text-decoration:none" href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FAAAI2019%2F">AAAI-2019</a>, <a target="_blank" style="text-decoration:none" href="https://ijcai2019.confmaster.net/">IJCAI-2019</a>, <a target="_blank" style="text-decoration:none" href="https://wi-lab.com/cyberchair/2019/icdm19/pcmb/pc_index.php?subarea=DM">ICDM-2019</a>, <a target="_blank" style="text-decoration:none" href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FPAKDD2019%2F">PAKDD-2019</a>, <a target="_blank" style="text-decoration:none" href="https://wi-lab.com/cyberchair/2019/bigdata19/pcmb/pc_index.php?subarea=S25">BigData-2019 (Workshop on Human-in-the-Loop)</a><br>
+                    <a target="_blank" style="text-decoration:none" href="http://prada-research.net/pakdd18/">PAKDD-2018</a>, <a target="_blank" style="text-decoration:none" href="https://wi-lab.com/cyberchair/2018/bigdata18/pcmb/pc_index.php?subarea=S13">HMData-2018</a>, <a target="_blank" style="text-decoration:none" href="https://pic2018.tongji.edu.cn">PIC-2018</a><br>
+                    <a target="_blank" style="text-decoration:none" href="http://www.www2017.com.au/call-for-papers/crowdsourcing.php">WWW-2017</a>, <a target="_blank" style="text-decoration:none" href="http://icbk2017.bigke.org/">IEEE ICBK-2017</a>(<a target="_blank" style="text-decoration:none" href="https://wi-lab.com/cyberchair/2017/icbk17/pcmb/pc_index.php?subarea=BK">PC login</a>), <a target="_blank" style="text-decoration:none" href="http://www.ieee-dsc.org/2017/ProgramCommittee.html">IEEE DSC-2017</a>, <a target="_blank" style="text-decoration:none" href="http://pic2017.njust.edu.cn/">PIC-2017</a><br>
+                    <a target="_blank" style="text-decoration:none" href="http://www.ieee-dsc.org/2016/ProgramCommittee.html">IEEE DSC-2016</a>, <a target="_blank" style="text-decoration:none" href="http://www.besc-conf.org/2016/index.html">BESC-2016</a>, <a target="_blank" style="text-decoration:none" href="http://www.es2016.conferences.academy/">ES-2016</a>, <a target="_blank" style="text-decoration:none" href="http://www.humancomputation.com/2016/">AAAI HCOMP-2016</a>, <a target="_blank" style="text-decoration:none" href="http://citicup.shufe.edu.cn/">PIC-2016</a><br>
+                    <a target="_blank" style="text-decoration:none" href="http://pic2015.njust.edu.cn/">IEEE PIC-2015</a>
+                </li>
+                <li class="hangingindent">Reviewer for Journals<br>
+                    <a target="_blank" style="text-decoration:none" href="http://jmlr.csail.mit.edu/">Journal of Machine Learning Research</a><br>
+                    <a target="_blank" style="text-decoration:none" href="https://mc.manuscriptcentral.com/tkde-cs">IEEE Transactions on Knowledge and Data Engineering</a><br>
+                    <a target="_blank" style="text-decoration:none" href="https://mc.manuscriptcentral.com/tnnls">IEEE Transactions on Neural Networks and Learning Systems</a><br>
+                    <a target="_blank" style="text-decoration:none" href="https://mc.manuscriptcentral.com/taco">ACM Transactions on Architecture and Code Optimization</a><br>
+                    <a target="_blank" style="text-decoration:none" href="https://www.evise.com/profile/#/INS/login">Information Sciences</a><br>
+                    <a target="_blank" style="text-decoration:none" href="https://www.evise.com/profile/#/INFFUS/login">Information Fusion</a><br>
+                    <a target="_blank" style="text-decoration:none" href="http://www.editorialmanager.com/mach/default.aspx">Machine Learning</a><br>
+                    <a target="_blank" style="text-decoration:none" href="http://kais.edmgr.com/">Knowledge and Information Systems</a><br>
+                    <a target="_blank" style="text-decoration:none" href="https://www.evise.com/profile/#/FGCS/login">Future Generation Computer Systems</a><br>
+                    <a target="_blank" style="text-decoration:none" href="http://link.springer.com/journal/10723">Journal of Grid Computing</a><br>
+                    <a target="_blank" style="text-decoration:none" href="https://www.journals.elsevier.com/pattern-recognition-letters/">Pattern Recognition Letters</a><br>
+                    <a target="_blank" style="text-decoration:none" href="https://mc.manuscriptcentral.com/cpe">Concurrency and Computation: Practice and Experience</a><br>
+                    <a target="_blank" style="text-decoration:none" href="https://ees.elsevier.com/eaai/default.asp">Engineering Applications of Artificial Intelligence</a><br>
+                    <a target="_blank" style="text-decoration:none" href="https://mc03.manuscriptcentral.com/tst">Tsinghua Science and Technology</a><br>
+                    <a target="_blank" style="text-decoration:none" href="https://mc.manuscriptcentral.com/ieee-access">IEEE Access</a><br>
+                    <a target="_blank" style="text-decoration:none" href="%20http://www.evise.com/evise/faces/pages/navigation/NavController.jspx?JRNL_ACR=HELIYON">Heliyon</a><br>
+                    <a target="_blank" style="text-decoration:none" href="http://digital-library.theiet.org/content/journals/iet-net">IET Networks</a><br>
+                    <a target="_blank" style="text-decoration:none" href="http://scientiairanica.sharif.edu/">Scientia Iranica</a><br>
+                    <a target="_blank" style="text-decoration:none" href="http://www.techscience.com/cmc/">CMC-Computers Materials &amp; Continua</a> 
+                </li>-->
             </ul>
-        </section>
-        <section id="contact">
-            <h2>Contact</h2>
-            <p>You can reach me at:</p>
+        </div>
+        
+        
+        <div style="margin-left:30px;" id="Chinese Bio-sketch">
+            <h2>
+                Chinese Bio-sketch (中文简介)
+            </h2>
             <ul>
-                <li>Email: <a href="mailto:your.email@example.com">your.email@example.com</a></li>
-                <li>LinkedIn: <a href="https://www.linkedin.com/in/yourprofile" target="_blank">yourprofile</a></li>
-                <li>GitHub: <a href="https://github.com/yourusername" target="_blank">yourusername</a></li>
+                <li class="hangingindent">
+                    <a href=http://202.119.85.163/open/TutorInfo.aspx?dsbh=lfd1sZygROuQBMwpVUKNFg==&yxsh=4iVdgPyuKTE=&zydm=0890VO2fcm0=" target="_new">Chinese Bio-sketch</a>
+                </li>
             </ul>
-        </section>
-    </main>
-    <footer>
-        <p>&copy; 2025 Your Name. Built with ❤️ on GitHub Pages.</p>
-    </footer>
-</body>
+        </div>
+        <br>
+        
+        <img src="./image/bar.gif" width="100%" height="1.0"><br>
+        <!--可加访客分布
+                <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=500&t=tt&d=ZrN2GyN7U_8Eo_m5N3vNHuQwfUZOfEhKsWzLywA2_jk&co=2d78ad&ct=ffffff&cmo=3acc3a&cmn=ff5353'></script>
+        -->
+        <br>
+                <span style="text-align: center;">Copyright &copy; Bo Huang. All right reserved. </span>
+    </body>
 </html>
